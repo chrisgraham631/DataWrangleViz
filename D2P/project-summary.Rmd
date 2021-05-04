@@ -1,0 +1,59 @@
+---
+title: "Project Summary"
+subtitle: "Project name"
+author: "Student 1, Student 2, ..."
+output: html_document
+---
+
+# Introduction
+
+Relevance, question of interest, background, etc.
+
+# Data cleaning
+
+Describe what you had to do to clean the data. E.g., importing multiple data sets, merging them together, pivoting data frames, filtering the data, converting data types, etc. Include this code AS AN APPENDIX.
+
+# Numeric summaries
+
+Provide a numeric summary of the response and at least 3 other variables along with a brief interpretation of each summary.
+
+* summarize Latino and Black (Chris)
+
+# Univariate graphics
+
+Provide graphical summaries of the response and at least 3 other variables along with a brief interpretation of each graphic.
+
+Response:
+* histogram of youth poverty and show where colorado falls (Chris)
+
+Predictors:
+* box plot health insurance
+* violin of:
+  * latino
+  * 
+
+# Bivariate graphics
+
+Provide bivariate graphical summaries of the response versus at least 3 other variables along with a brief interpretation of each graphic.
+
+* state map showing youth poverty rates (chris)
+* youth poverty vs food access scatter plot
+* health insurance rates on us map (chris)
+
+# Multivariate graphics
+
+Provide at least 3 multivariate graphical summaries along with a brief interpretation of each graphic. This could be something like a scatter plot of the response versus another variable that facets by a third variable (or uses colors or shapes to distinguish levels of another variable).
+
+* bar chart showing ethnicity, total, and poverty.
+* scatter plot showing health insurance vs. youth poverty vs. states
+* **find another** (chris)
+
+# Conclusions and recommendations
+
+What are your overall conclusions about the relationship between your response variable and your other variables? Based on this information, what policy recommendations would you propose to address your findings?
+
+In conclusion, although Colorado ranks well in statewide youth poverty rate compared to the rest of the Unite States, one in ten children still fall below the poverty line. Yet, it has long been a challenge to determine what factors are both influential and targetable for some type of policy change in regards to youth poverty rates. Our model contained three powerful predictors for youth poverty rate. The percentage of a State's population that is covered by some form of health insurance explains more of the variance in a State's youth poverty rate than the other two predictors, as such it is the best key to bringing down youth poverty. More precisely, holding the percentage of Latino and Black youth in poverty constant, a 1% increase in health insurance coverage returns a 0.5% decrease in youth poverty. This implies that if 100% of the population of Colorado is covered with health insurance, our model estimates that the State’s youth poverty rate will decline from 11% to 5%. 
+
+# Appendix
+
+The code you used to clean and analyze your data
